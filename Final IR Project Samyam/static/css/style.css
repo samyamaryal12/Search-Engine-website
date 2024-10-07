@@ -1,0 +1,80 @@
+/* Body Styling */
+body {
+    background-color: #7039a1; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the search box */
+.search-container {
+    text-align: center;
+}
+
+/* Custom Logo Styling */
+.logo h1 {
+    font-size: 100px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling the search form */
+.search-form {
+    margin-top: 20px;
+}
+
+/* Search Box */
+.search-box {
+    width: 60%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.search-box:focus {
+    border-color: #4285f4;
+}
+
+/* Search Button */
+.search-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: #4285f4;
+    border: none;
+    border-radius: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #357ae8;
+}
+
+/* Search Results */
+.results {
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+}
+
+.result-item h3 {
+    font-size: 22px;
+    color: white;
+}
+
+.result-item p {
+    font-size: 16px;
+    color: lightgray;
+}
+
+.result-item hr {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
